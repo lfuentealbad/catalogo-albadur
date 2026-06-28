@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Albadur · Catálogo de productos</title>
+  <meta name="description" content="Catálogo de productos Albadur: confites, higiene personal, refrescos, despensa, menaje y librería. Arma tu pedido y envíalo por WhatsApp o correo." />
+  <meta name="theme-color" content="#0075bf" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Albadur · Catálogo de productos" />
+  <meta property="og:description" content="Confites, higiene, despensa, menaje y más. Arma tu pedido en línea." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/logo-square.jpg" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/img/favicon-180.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#catalogo">Saltar al catálogo</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Albadur — inicio">
+        <img src="assets/img/logo.svg" alt="Albadur" class="brand-logo" width="180" height="44" />
+      </a>
+
+      <div class="header-search">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="search" type="search" placeholder="Buscar producto…" autocomplete="off" aria-label="Buscar producto" />
+      </div>
+
+      <button class="cart-toggle" id="cart-toggle" aria-haspopup="dialog" aria-controls="order-drawer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h15l-1.5 9h-12L6 6zM6 6L5 3H2m4 18a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm11 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Mi pedido</span>
+        <span class="cart-count" id="cart-count" hidden>0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="hero-eyebrow">Distribuidora · Ventas al por mayor</p>
+          <h1 class="hero-title">El catálogo completo de <span>Albadur</span></h1>
+          <p class="hero-lead">Confites, higiene personal, refrescos, despensa, menaje y librería. Explora el catálogo, arma tu pedido y envíanoslo en un par de clics.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#catalogo">Ver catálogo</a>
+            <a class="btn btn-ghost" href="#contacto">Cómo comprar</a>
+          </div>
+          <dl class="hero-stats">
+            <div><dt id="stat-products">—</dt><dd>productos</dd></div>
+            <div><dt id="stat-cats">6</dt><dd>categorías</dd></div>
+          </dl>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <img src="assets/img/logo-square.jpg" alt="" class="hero-logo" />
+          <span class="blob blob-1"></span>
+          <span class="blob blob-2"></span>
+          <span class="blob blob-3"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo" class="catalog">
+      <div class="container">
+        <div class="catalog-head">
+          <h2>Catálogo</h2>
+          <p id="result-summary" class="result-summary" aria-live="polite"></p>
+        </div>
+
+        <div class="filters" id="filters" role="tablist" aria-label="Categorías"></div>
+
+        <div id="grid" class="grid" aria-busy="true"></div>
+
+        <p id="empty-state" class="empty-state" hidden>
+          No encontramos productos con ese criterio. Prueba con otra palabra.
+        </p>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="container contact-inner">
+        <div>
+          <h2>Cómo comprar</h2>
+          <ol class="steps">
+            <li><strong>Explora</strong> el catálogo y filtra por categoría o búsqueda.</li>
+            <li><strong>Agrega</strong> los productos y cantidades a tu pedido.</li>
+            <li><strong>Envíanos</strong> el pedido por WhatsApp o correo. Te confirmamos disponibilidad y precios.</li>
+          </ol>
+        </div>
+        <div class="contact-card">
+          <h3>Contacto</h3>
+          <p>Sociedad Albadur</p>
+          <a class="contact-link" id="contact-email" href="mailto:sociedadalbadur@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z M3 6l9 7 9-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            sociedadalbadur@gmail.com
+          </a>
+          <a class="contact-link" id="contact-wa" href="#" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1-4.2A8 8 0 1 1 20 12z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img src="assets/img/logo.svg" alt="Albadur" class="footer-logo" width="150" height="36" />
+      <p>© <span id="year"></span> Sociedad Albadur · Catálogo de productos</p>
+    </div>
+  </footer>
+
+  <!-- Panel de pedido -->
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="order-drawer" id="order-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" hidden>
+    <div class="drawer-head">
+      <h2 id="drawer-title">Mi pedido</h2>
+      <button class="drawer-close" id="drawer-close" aria-label="Cerrar">&times;</button>
+    </div>
+    <div class="drawer-body" id="drawer-body"></div>
+    <div class="drawer-foot" id="drawer-foot" hidden>
+      <label class="field">
+        <span>Tu nombre o local</span>
+        <input id="customer-name" type="text" placeholder="Ej: Almacén Don José" />
+      </label>
+      <label class="field">
+        <span>Notas (opcional)</span>
+        <textarea id="customer-notes" rows="2" placeholder="Comuna, horario de entrega, etc."></textarea>
+      </label>
+      <div class="drawer-actions">
+        <button class="btn btn-wa" id="send-wa" hidden>Enviar por WhatsApp</button>
+        <button class="btn btn-primary" id="send-email">Enviar por correo</button>
+        <button class="btn btn-text" id="clear-order">Vaciar pedido</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

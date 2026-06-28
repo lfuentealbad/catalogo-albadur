@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 1,
+    "name": "Alfajor Dorado 20u",
+    "category": "Confites",
+    "image": "assets/products/001-alfajor-dorado-20u.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Alfajor Panchote",
+    "category": "Confites",
+    "image": "assets/products/002-alfajor-panchote.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Barra caramelo y mani Rambo 24u",
+    "category": "Confites",
+    "image": "assets/products/003-barra-caramelo-y-mani-rambo-24u.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Biscocho Chocman Black x32",
+    "category": "Confites",
+    "image": "assets/products/004-biscocho-chocman-black-x32.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Bandeja Cuchufli Blanco x90",
+    "category": "Confites",
+    "image": "assets/products/005-bandeja-cuchufli-blanco-x90.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Bandeja Cuchufli banado Chocolate x50",
+    "category": "Confites",
+    "image": "assets/products/006-bandeja-cuchufli-banado-chocolate-x50.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Biscocho Chocman Clasico x32",
+    "category": "Confites",
+    "image": "assets/products/007-biscocho-chocman-clasico-x32.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Bolitas Crocantes Asterix 20u",
+    "category": "Confites",
+    "image": "assets/products/008-bolitas-crocantes-asterix-20u.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Bombon Bon o Bon Blanco 30u",
+    "category": "Confites",
+    "image": "assets/products/009-bombon-bon-o-bon-blanco-30u.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Bombones de chocolate corazon 180gr",
+    "category": "Confites",
+    "image": "assets/products/010-bombones-de-chocolate-corazon-180gr.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Bombon Bon o Bon Chocolate 30u",
+    "category": "Confites",
+    "image": "assets/products/011-bombon-bon-o-bon-chocolate-30u.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Bombon corazon 8u Dorado",
+    "category": "Confites",
+    "image": "assets/products/012-bombon-corazon-8u-dorado.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Bombon corazon 8u Rojo",
+    "category": "Confites",
+    "image": "assets/products/013-bombon-corazon-8u-rojo.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Bombon corazon 3u Dorado - Rojo",
+    "category": "Confites",
+    "image": "assets/products/014-bombon-corazon-3u-dorado-rojo.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Bombon corazon 5u",
+    "category": "Confites",
+    "image": "assets/products/015-bombon-corazon-5u.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Bon Bon Bum fresa 24u",
+    "category": "Confites",
+    "image": "assets/products/016-bon-bon-bum-fresa-24u.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Bon Bon Bum Mistery 24u",
+    "category": "Confites",
+    "image": "assets/products/017-bon-bon-bum-mistery-24u.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Bon Bon Bum sabor uva 24u",
+    "category": "Confites",
+    "image": "assets/products/018-bon-bon-bum-sabor-uva-24u.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Bon Bon Bum sabores surtidos 24u",
+    "category": "Confites",
+    "image": "assets/products/019-bon-bon-bum-sabores-surtidos-24u.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Bon Bon Bum surtido tropical 24u",
+    "category": "Confites",
+    "image": "assets/products/020-bon-bon-bum-surtido-tropical-24u.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Candy Maquinita x24",
+    "category": "Confites",
+    "image": "assets/products/021-candy-maquinita-x24.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Caramelo Alka cristal menta 100u",
+    "category": "Confites",
+    "image": "assets/products/022-caramelo-alka-cristal-menta-100u.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Caluga Suny clasica bolsa 400gr",
+    "category": "Confites",
+    "image": "assets/products/023-caluga-suny-clasica-bolsa-400gr.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Caluga Old England Toffee 450gr",
+    "category": "Confites",
+    "image": "assets/products/024-caluga-old-england-toffee-450gr.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Caluga Old England Toffee Mint 450gr",
+    "category": "Confites",
+    "image": "assets/products/025-caluga-old-england-toffee-mint-450gr.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Caramelo Alka Ice cereza 100u",
+    "category": "Confites",
+    "image": "assets/products/026-caramelo-alka-ice-cereza-100u.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Caramelo Alka Ice miel 100u",
+    "category": "Confites",
+    "image": "assets/products/027-caramelo-alka-ice-miel-100u.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Caramelo Alka mentol 100u",
+    "category": "Confites",
+    "image": "assets/products/028-caramelo-alka-mentol-100u.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Caramelo Full limon 24u",
+    "category": "Confites",
+    "image": "assets/products/029-caramelo-full-limon-24u.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Caramelo Full Masti Crunch 24u",
+    "category": "Confites",
+    "image": "assets/products/030-caramelo-full-masti-crunch-24u.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Caramelo Mentitas 24u",
+    "category": "Confites",
+    "image": "assets/products/031-caramelo-mentitas-24u.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Caramelo Mentitas Masti Crunch 24u",
+    "category": "Confites",
+    "image": "assets/products/032-caramelo-mentitas-masti-crunch-24u.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Caramelo Surtido Arbolito x100",
+    "category": "Confites",
+    "image": "assets/products/033-caramelo-surtido-arbolito-x100.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Caramelos masticables Max frutas con crema",
+    "category": "Confites",
+    "image": "assets/products/034-caramelos-masticables-max-frutas-con-crema.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Chicle Bigtime Acid Blueberry 20u",
+    "category": "Confites",
+    "image": "assets/products/035-chicle-bigtime-acid-blueberry-20u.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Chicle Bigtime Aqua 20u",
+    "category": "Confites",
+    "image": "assets/products/036-chicle-bigtime-aqua-20u.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Chicle Bigtime Frutilla Acida 20u",
+    "category": "Confites",
+    "image": "assets/products/037-chicle-bigtime-frutilla-acida-20u.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Chicle Bigtime Menta 20u",
+    "category": "Confites",
+    "image": "assets/products/038-chicle-bigtime-menta-20u.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Chicle Bigtime Refrescante 20u",
+    "category": "Confites",
+    "image": "assets/products/039-chicle-bigtime-refrescante-20u.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Chicle Bigtime Sandia 20u",
+    "category": "Confites",
+    "image": "assets/products/040-chicle-bigtime-sandia-20u.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Chicle Bigtime Strong 20u",
+    "category": "Confites",
+    "image": "assets/products/041-chicle-bigtime-strong-20u.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Chicle Bolon 100u",
+    "category": "Confites",
+    "image": "assets/products/042-chicle-bolon-100u.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Chicle globo Grosso 150u",
+    "category": "Confites",
+    "image": "assets/products/043-chicle-globo-grosso-150u.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Chicle Grosso sabor menta 100u",
+    "category": "Confites",
+    "image": "assets/products/044-chicle-grosso-sabor-menta-100u.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Chicle Grosso sabor sandia 100u",
+    "category": "Confites",
+    "image": "assets/products/045-chicle-grosso-sabor-sandia-100u.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Chicle Rollo sabores surtidos 30u",
+    "category": "Confites",
+    "image": "assets/products/046-chicle-rollo-sabores-surtidos-30u.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Chicle Sandia 100u",
+    "category": "Confites",
+    "image": "assets/products/047-chicle-sandia-100u.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Chicle Splot Acid 120u",
+    "category": "Confites",
+    "image": "assets/products/048-chicle-splot-acid-120u.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Chocolate Capri sabor almendra 24u",
+    "category": "Confites",
+    "image": "assets/products/049-chocolate-capri-sabor-almendra-24u.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Chocolate Capri sabor frutilla 24u",
+    "category": "Confites",
+    "image": "assets/products/050-chocolate-capri-sabor-frutilla-24u.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Chocolate Verona sabor chocolate",
+    "category": "Confites",
+    "image": "assets/products/051-chocolate-verona-sabor-chocolate.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Chupete Bowling Cream 24u",
+    "category": "Confites",
+    "image": "assets/products/052-chupete-bowling-cream-24u.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Chupete Yogueta surtida 20u",
+    "category": "Confites",
+    "image": "assets/products/053-chupete-yogueta-surtida-20u.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Chupetines Pico Dulce 53u",
+    "category": "Confites",
+    "image": "assets/products/054-chupetines-pico-dulce-53u.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Confite Chubi 24u",
+    "category": "Confites",
+    "image": "assets/products/055-confite-chubi-24u.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Doble Chirlito 40u",
+    "category": "Confites",
+    "image": "assets/products/056-doble-chirlito-40u.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Dulce Tucrema 48u",
+    "category": "Confites",
+    "image": "assets/products/057-dulce-tucrema-48u.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Enojones sabor chirimoya alegre x10u",
+    "category": "Confites",
+    "image": "assets/products/058-enojones-sabor-chirimoya-alegre-x10u.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Frugele gomitas 100u",
+    "category": "Confites",
+    "image": "assets/products/059-frugele-gomitas-100u.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Frutos Leblon 60u",
+    "category": "Confites",
+    "image": "assets/products/060-frutos-leblon-60u.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Galleta de champana Gullon 200g",
+    "category": "Confites",
+    "image": "assets/products/061-galleta-de-champana-gullon-200g.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Galleta Tableton",
+    "category": "Confites",
+    "image": "assets/products/062-galleta-tableton.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Galleta Fruna 1x32",
+    "category": "Confites",
+    "image": "assets/products/063-galleta-fruna-1x32.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Galleta Nonitas 55g",
+    "category": "Confites",
+    "image": "assets/products/064-galleta-nonitas-55g.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Galleta sabor chocolate 140g",
+    "category": "Confites",
+    "image": "assets/products/065-galleta-sabor-chocolate-140g.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Galletas de mantequilla estilo danes",
+    "category": "Confites",
+    "image": "assets/products/066-galletas-de-mantequilla-estilo-danes.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Galletas sabor limon 140g",
+    "category": "Confites",
+    "image": "assets/products/067-galletas-sabor-limon-140g.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Galletitas Dulces Fruna sabor Chocolate 500g",
+    "category": "Confites",
+    "image": "assets/products/068-galletitas-dulces-fruna-sabor-chocolate-500g.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Gato Encerrado sabor chocolate x10u",
+    "category": "Confites",
+    "image": "assets/products/069-gato-encerrado-sabor-chocolate-x10u.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Gomitas acidas Loop 20u",
+    "category": "Confites",
+    "image": "assets/products/070-gomitas-acidas-loop-20u.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Gomitas Amberries 20u",
+    "category": "Confites",
+    "image": "assets/products/071-gomitas-amberries-20u.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Gomitas Flipy 20u",
+    "category": "Confites",
+    "image": "assets/products/072-gomitas-flipy-20u.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Gomitas Hamburguesa 36u",
+    "category": "Confites",
+    "image": "assets/products/073-gomitas-hamburguesa-36u.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Gomitas Mini Hot Dog 36u",
+    "category": "Confites",
+    "image": "assets/products/074-gomitas-mini-hot-dog-36u.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Gomitas sabor frutillas a la crema 20u",
+    "category": "Confites",
+    "image": "assets/products/075-gomitas-sabor-frutillas-a-la-crema-20u.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Huevo Dino Sorpresa x24 armables",
+    "category": "Confites",
+    "image": "assets/products/076-huevo-dino-sorpresa-x24-armables.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Huevo Dino Sorpresa x30",
+    "category": "Confites",
+    "image": "assets/products/077-huevo-dino-sorpresa-x30.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Huevo sorpresa Car x24",
+    "category": "Confites",
+    "image": "assets/products/078-huevo-sorpresa-car-x24.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Huevo sorpresa nino-nina x24",
+    "category": "Confites",
+    "image": "assets/products/079-huevo-sorpresa-nino-nina-x24.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Lenguicido XL sabor frutilla 24u",
+    "category": "Confites",
+    "image": "assets/products/080-lenguicido-xl-sabor-frutilla-24u.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Lenguicido XL sabor manzana 24u",
+    "category": "Confites",
+    "image": "assets/products/081-lenguicido-xl-sabor-manzana-24u.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Malvavisco Oba Oba 30u",
+    "category": "Confites",
+    "image": "assets/products/082-malvavisco-oba-oba-30u.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Mani Choc chocolate 20u",
+    "category": "Confites",
+    "image": "assets/products/083-mani-choc-chocolate-20u.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Mani Choc confitado 20u",
+    "category": "Confites",
+    "image": "assets/products/084-mani-choc-confitado-20u.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Mani Tifany's 20u",
+    "category": "Confites",
+    "image": "assets/products/085-mani-tifanys-20u.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Marshmallows Cubanitos",
+    "category": "Confites",
+    "image": "assets/products/086-marshmallows-cubanitos.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Marshmallows Run-Run sabor vainilla",
+    "category": "Confites",
+    "image": "assets/products/087-marshmallows-run-run-sabor-vainilla.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Mini jaleas sabores surtidos 50u",
+    "category": "Confites",
+    "image": "assets/products/088-mini-jaleas-sabores-surtidos-50u.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Minitorta selva negra 20u",
+    "category": "Confites",
+    "image": "assets/products/089-minitorta-selva-negra-20u.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Minitorta Tortazo 20u",
+    "category": "Confites",
+    "image": "assets/products/090-minitorta-tortazo-20u.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Monedas sabor Chocolate x50",
+    "category": "Confites",
+    "image": "assets/products/091-monedas-sabor-chocolate-x50.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Oblea Bachata sabor coco 20u",
+    "category": "Confites",
+    "image": "assets/products/092-oblea-bachata-sabor-coco-20u.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Oblea Bachata sabor cremino 20u",
+    "category": "Confites",
+    "image": "assets/products/093-oblea-bachata-sabor-cremino-20u.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Oblea Kilate 20u",
+    "category": "Confites",
+    "image": "assets/products/094-oblea-kilate-20u.jpg"
+  },
+  {
+    "id": 95,
+    "name": "Pack Milo en sobre 28g 10u",
+    "category": "Confites",
+    "image": "assets/products/095-pack-milo-en-sobre-28g-10u.jpg"
+  },
+  {
+    "id": 96,
+    "name": "Paleta corazon cereza 24u",
+    "category": "Confites",
+    "image": "assets/products/096-paleta-corazon-cereza-24u.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Paleta escobita azul 24u",
+    "category": "Confites",
+    "image": "assets/products/097-paleta-escobita-azul-24u.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Paleta Lollipop boquita 24u",
+    "category": "Confites",
+    "image": "assets/products/098-paleta-lollipop-boquita-24u.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Paleta Loly Choc 24u",
+    "category": "Confites",
+    "image": "assets/products/099-paleta-loly-choc-24u.jpg"
+  },
+  {
+    "id": 100,
+    "name": "Palito Palo Loco 30u",
+    "category": "Confites",
+    "image": "assets/products/100-palito-palo-loco-30u.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Polvo Mabu Explota X4 30u",
+    "category": "Confites",
+    "image": "assets/products/101-polvo-mabu-explota-x4-30u.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Super 8 24u",
+    "category": "Confites",
+    "image": "assets/products/102-super-8-24u.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Turron de mani 28u",
+    "category": "Confites",
+    "image": "assets/products/103-turron-de-mani-28u.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Galleta Palmerita Conquista 300gr",
+    "category": "Confites",
+    "image": "assets/products/104-galleta-palmerita-conquista-300gr.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Galleta Media Tarde 100gr",
+    "category": "Confites",
+    "image": "assets/products/105-galleta-media-tarde-100gr.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Chocolate Costa Rama 115gr",
+    "category": "Confites",
+    "image": "assets/products/106-chocolate-costa-rama-115gr.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Bombon Mabu rectangular 12 pcs",
+    "category": "Confites",
+    "image": "assets/products/107-bombon-mabu-rectangular-12-pcs.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Bocadito Membrillo 300g",
+    "category": "Confites",
+    "image": "assets/products/108-bocadito-membrillo-300g.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Chocolate Vizzio 120g",
+    "category": "Confites",
+    "image": "assets/products/109-chocolate-vizzio-120g.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Galleta Suny 120g",
+    "category": "Confites",
+    "image": "assets/products/110-galleta-suny-120g.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Galleta Surtidas 400g",
+    "category": "Confites",
+    "image": "assets/products/111-galleta-surtidas-400g.jpg"
+  },
+  {
+    "id": 112,
+    "name": "Huevo grande 50u Mabu",
+    "category": "Confites",
+    "image": "assets/products/112-huevo-grande-50u-mabu.jpg"
+  },
+  {
+    "id": 113,
+    "name": "Barra de chocolate Sahne-Nuss 250g",
+    "category": "Confites",
+    "image": "assets/products/113-barra-de-chocolate-sahne-nuss-250g.jpg"
+  },
+  {
+    "id": 114,
+    "name": "Puro de chocolate Fruna",
+    "category": "Confites",
+    "image": "assets/products/114-puro-de-chocolate-fruna.jpg"
+  },
+  {
+    "id": 115,
+    "name": "Choky crema 20u",
+    "category": "Confites",
+    "image": "assets/products/115-choky-crema-20u.jpg"
+  },
+  {
+    "id": 116,
+    "name": "Trufas de chocolate Amore",
+    "category": "Confites",
+    "image": "assets/products/116-trufas-de-chocolate-amore.jpg"
+  },
+  {
+    "id": 117,
+    "name": "Candy Raton globo 30u",
+    "category": "Confites",
+    "image": "assets/products/117-candy-raton-globo-30u.jpg"
+  },
+  {
+    "id": 118,
+    "name": "Candy Spray 24u",
+    "category": "Confites",
+    "image": "assets/products/118-candy-spray-24u.jpg"
+  },
+  {
+    "id": 119,
+    "name": "Palo Loco 30u",
+    "category": "Confites",
+    "image": "assets/products/119-palo-loco-30u.jpg"
+  },
+  {
+    "id": 120,
+    "name": "Bombon Lexus 1 kilo",
+    "category": "Confites",
+    "image": "assets/products/120-bombon-lexus-1-kilo.jpg"
+  },
+  {
+    "id": 121,
+    "name": "Galleta Bon o Bon 95gr",
+    "category": "Confites",
+    "image": "assets/products/121-galleta-bon-o-bon-95gr.jpg"
+  },
+  {
+    "id": 122,
+    "name": "Galleta Donuts variedades",
+    "category": "Confites",
+    "image": "assets/products/122-galleta-donuts-variedades.jpg"
+  },
+  {
+    "id": 123,
+    "name": "Donas Fruna 1200g",
+    "category": "Confites",
+    "image": "assets/products/123-donas-fruna-1200g.jpg"
+  },
+  {
+    "id": 124,
+    "name": "Acondicionador Ballerina Bajopoo Micelar 750ml",
+    "category": "Higiene Personal",
+    "image": "assets/products/124-acondicionador-ballerina-bajopoo-micelar-750ml.jpg"
+  },
+  {
+    "id": 125,
+    "name": "Acondicionador Ballerina Color Ideal 750ml",
+    "category": "Higiene Personal",
+    "image": "assets/products/125-acondicionador-ballerina-color-ideal-750ml.jpg"
+  },
+  {
+    "id": 126,
+    "name": "Acondicionador Ballerina Detox 750ml",
+    "category": "Higiene Personal",
+    "image": "assets/products/126-acondicionador-ballerina-detox-750ml.jpg"
+  },
+  {
+    "id": 127,
+    "name": "Colgate triple accion 50g 6u",
+    "category": "Higiene Personal",
+    "image": "assets/products/127-colgate-triple-accion-50g-6u.jpg"
+  },
+  {
+    "id": 128,
+    "name": "Gillette Prestobarba 2 Ultragrip 14u",
+    "category": "Higiene Personal",
+    "image": "assets/products/128-gillette-prestobarba-2-ultragrip-14u.jpg"
+  },
+  {
+    "id": 129,
+    "name": "Gillette Prestobarba 3 Confort gel 20u",
+    "category": "Higiene Personal",
+    "image": "assets/products/129-gillette-prestobarba-3-confort-gel-20u.jpg"
+  },
+  {
+    "id": 130,
+    "name": "Maquina de Afeitar Wilkinson doble hoja 12u",
+    "category": "Higiene Personal",
+    "image": "assets/products/130-maquina-de-afeitar-wilkinson-doble-hoja-12u.jpg"
+  },
+  {
+    "id": 131,
+    "name": "Maquina de Afeitar Xtreme 3 Hawaiian Tropic",
+    "category": "Higiene Personal",
+    "image": "assets/products/131-maquina-de-afeitar-xtreme-3-hawaiian-tropic.jpg"
+  },
+  {
+    "id": 132,
+    "name": "Maquina de Afeitar Xtreme 3 piel normal",
+    "category": "Higiene Personal",
+    "image": "assets/products/132-maquina-de-afeitar-xtreme-3-piel-normal.jpg"
+  },
+  {
+    "id": 133,
+    "name": "Maquina de Afeitar Xtreme 3 sensible",
+    "category": "Higiene Personal",
+    "image": "assets/products/133-maquina-de-afeitar-xtreme-3-sensible.jpg"
+  },
+  {
+    "id": 134,
+    "name": "Maquina de Afeitar Xtreme 3 Eco",
+    "category": "Higiene Personal",
+    "image": "assets/products/134-maquina-de-afeitar-xtreme-3-eco.jpg"
+  },
+  {
+    "id": 135,
+    "name": "Panal desechable Babysec Premium G",
+    "category": "Higiene Personal",
+    "image": "assets/products/135-panal-desechable-babysec-premium-g.jpg"
+  },
+  {
+    "id": 136,
+    "name": "Panal desechable Babysec Premium M",
+    "category": "Higiene Personal",
+    "image": "assets/products/136-panal-desechable-babysec-premium-m.jpg"
+  },
+  {
+    "id": 137,
+    "name": "Panal desechable Babysec Premium XG",
+    "category": "Higiene Personal",
+    "image": "assets/products/137-panal-desechable-babysec-premium-xg.jpg"
+  },
+  {
+    "id": 138,
+    "name": "Panal desechable Babysec Premium XXG",
+    "category": "Higiene Personal",
+    "image": "assets/products/138-panal-desechable-babysec-premium-xxg.jpg"
+  },
+  {
+    "id": 139,
+    "name": "Panuelos desechables Elite triple hoja x18",
+    "category": "Higiene Personal",
+    "image": "assets/products/139-panuelos-desechables-elite-triple-hoja-x18.jpg"
+  },
+  {
+    "id": 140,
+    "name": "Shampoo Ballerina Accion Antioxidante 750ml",
+    "category": "Higiene Personal",
+    "image": "assets/products/140-shampoo-ballerina-accion-antioxidante-750ml.jpg"
+  },
+  {
+    "id": 141,
+    "name": "Shampoo Ballerina Accion Antioxidante 900ml",
+    "category": "Higiene Personal",
+    "image": "assets/products/141-shampoo-ballerina-accion-antioxidante-900ml.jpg"
+  },
+  {
+    "id": 142,
+    "name": "Shampoo Ballerina Bajopoo 900ml",
+    "category": "Higiene Personal",
+    "image": "assets/products/142-shampoo-ballerina-bajopoo-900ml.jpg"
+  },
+  {
+    "id": 143,
+    "name": "Shampoo Ballerina Detox 900ml",
+    "category": "Higiene Personal",
+    "image": "assets/products/143-shampoo-ballerina-detox-900ml.jpg"
+  },
+  {
+    "id": 144,
+    "name": "Shampoo Head & Shoulders limpieza renovadora 10ml x24",
+    "category": "Higiene Personal",
+    "image": "assets/products/144-shampoo-head-shoulders-limpieza-renovadora-10ml-x24.jpg"
+  },
+  {
+    "id": 145,
+    "name": "Toalla de bano 90x180",
+    "category": "Higiene Personal",
+    "image": "assets/products/145-toalla-de-bano-90x180.jpg"
+  },
+  {
+    "id": 146,
+    "name": "Toalla femenina Kotex normal con alas",
+    "category": "Higiene Personal",
+    "image": "assets/products/146-toalla-femenina-kotex-normal-con-alas.jpg"
+  },
+  {
+    "id": 147,
+    "name": "Toalla femenina Mimosa normal con alas",
+    "category": "Higiene Personal",
+    "image": "assets/products/147-toalla-femenina-mimosa-normal-con-alas.jpg"
+  },
+  {
+    "id": 148,
+    "name": "Toalla femenina Parati nocturna con alas",
+    "category": "Higiene Personal",
+    "image": "assets/products/148-toalla-femenina-parati-nocturna-con-alas.jpg"
+  },
+  {
+    "id": 149,
+    "name": "Toalla femenina Parati normal con alas",
+    "category": "Higiene Personal",
+    "image": "assets/products/149-toalla-femenina-parati-normal-con-alas.jpg"
+  },
+  {
+    "id": 150,
+    "name": "Toalla femenina Parati Apositos TU",
+    "category": "Higiene Personal",
+    "image": "assets/products/150-toalla-femenina-parati-apositos-tu.jpg"
+  },
+  {
+    "id": 151,
+    "name": "Toalla femenina Parati Apositos XG",
+    "category": "Higiene Personal",
+    "image": "assets/products/151-toalla-femenina-parati-apositos-xg.jpg"
+  },
+  {
+    "id": 152,
+    "name": "Toalla femenina Cotidian Apositos",
+    "category": "Higiene Personal",
+    "image": "assets/products/152-toalla-femenina-cotidian-apositos.jpg"
+  },
+  {
+    "id": 153,
+    "name": "Toalla femenina Blu Apositos",
+    "category": "Higiene Personal",
+    "image": "assets/products/153-toalla-femenina-blu-apositos.jpg"
+  },
+  {
+    "id": 154,
+    "name": "Jugo en polvo Sprim durazno 10u",
+    "category": "Refrescos",
+    "image": "assets/products/154-jugo-en-polvo-sprim-durazno-10u.jpg"
+  },
+  {
+    "id": 155,
+    "name": "Jugo en polvo Sprim frambuesa 10u",
+    "category": "Refrescos",
+    "image": "assets/products/155-jugo-en-polvo-sprim-frambuesa-10u.jpg"
+  },
+  {
+    "id": 156,
+    "name": "Jugo en polvo Sprim melon tuna 10u",
+    "category": "Refrescos",
+    "image": "assets/products/156-jugo-en-polvo-sprim-melon-tuna-10u.jpg"
+  },
+  {
+    "id": 157,
+    "name": "Jugo en polvo Sprim multifrut 10u",
+    "category": "Refrescos",
+    "image": "assets/products/157-jugo-en-polvo-sprim-multifrut-10u.jpg"
+  },
+  {
+    "id": 158,
+    "name": "Jugo en polvo Sprim naranja 10u",
+    "category": "Refrescos",
+    "image": "assets/products/158-jugo-en-polvo-sprim-naranja-10u.jpg"
+  },
+  {
+    "id": 159,
+    "name": "Jugo en polvo Sprim papaya 10u",
+    "category": "Refrescos",
+    "image": "assets/products/159-jugo-en-polvo-sprim-papaya-10u.jpg"
+  },
+  {
+    "id": 160,
+    "name": "Jugo en polvo Sprim pina 10u",
+    "category": "Refrescos",
+    "image": "assets/products/160-jugo-en-polvo-sprim-pina-10u.jpg"
+  },
+  {
+    "id": 161,
+    "name": "Jugo en polvo Zuko pina 10u",
+    "category": "Refrescos",
+    "image": "assets/products/161-jugo-en-polvo-zuko-pina-10u.jpg"
+  },
+  {
+    "id": 162,
+    "name": "Aceite comestible maravilla 5 Litros Coliseo",
+    "category": "Despensa",
+    "image": "assets/products/162-aceite-comestible-maravilla-5-litros-coliseo.jpg"
+  },
+  {
+    "id": 163,
+    "name": "Aceite comestible vegetal D'Almacen 900ml",
+    "category": "Despensa",
+    "image": "assets/products/163-aceite-comestible-vegetal-dalmacen-900ml.jpg"
+  },
+  {
+    "id": 164,
+    "name": "Alimento Milo bolsa 210g",
+    "category": "Despensa",
+    "image": "assets/products/164-alimento-milo-bolsa-210g.jpg"
+  },
+  {
+    "id": 165,
+    "name": "Arroz grano largo ancho Grado 2 Valle de Oro 1x10",
+    "category": "Despensa",
+    "image": "assets/products/165-arroz-grano-largo-ancho-grado-2-valle-de-oro-1x10.jpg"
+  },
+  {
+    "id": 166,
+    "name": "Azucar D'Almacen blanca granulada 1x10",
+    "category": "Despensa",
+    "image": null
+  },
+  {
+    "id": 167,
+    "name": "Azucar Iansa blanca granulada 1,5kg",
+    "category": "Despensa",
+    "image": "assets/products/167-azucar-iansa-blanca-granulada-15kg.jpg"
+  },
+  {
+    "id": 168,
+    "name": "Cafe Nescafe Black Roast 50g",
+    "category": "Despensa",
+    "image": "assets/products/168-cafe-nescafe-black-roast-50g.jpg"
+  },
+  {
+    "id": 169,
+    "name": "Cafe Nescafe Tradicion 50g",
+    "category": "Despensa",
+    "image": "assets/products/169-cafe-nescafe-tradicion-50g.jpg"
+  },
+  {
+    "id": 170,
+    "name": "Caldo sabor Carne 48u",
+    "category": "Despensa",
+    "image": "assets/products/170-caldo-sabor-carne-48u.jpg"
+  },
+  {
+    "id": 171,
+    "name": "Caldo sabor Costilla 48u",
+    "category": "Despensa",
+    "image": "assets/products/171-caldo-sabor-costilla-48u.jpg"
+  },
+  {
+    "id": 172,
+    "name": "Caldo sabor Gallina 48u",
+    "category": "Despensa",
+    "image": "assets/products/172-caldo-sabor-gallina-48u.jpg"
+  },
+  {
+    "id": 173,
+    "name": "Colacao en polvo sabor chocolate 330g",
+    "category": "Despensa",
+    "image": "assets/products/173-colacao-en-polvo-sabor-chocolate-330g.jpg"
+  },
+  {
+    "id": 174,
+    "name": "Crema de leche Bravo Cream",
+    "category": "Despensa",
+    "image": "assets/products/174-crema-de-leche-bravo-cream.jpg"
+  },
+  {
+    "id": 175,
+    "name": "Fideo Fettuccine 88 400g Carozzi",
+    "category": "Despensa",
+    "image": "assets/products/175-fideo-fettuccine-88-400g-carozzi.jpg"
+  },
+  {
+    "id": 176,
+    "name": "Fideo Tallarines 87 400g Carozzi",
+    "category": "Despensa",
+    "image": "assets/products/176-fideo-tallarines-87-400g-carozzi.jpg"
+  },
+  {
+    "id": 177,
+    "name": "Fideos Espirales 400g Carozzi",
+    "category": "Despensa",
+    "image": "assets/products/177-fideos-espirales-400g-carozzi.jpg"
+  },
+  {
+    "id": 178,
+    "name": "Fideos Rigatoni 400g Carozzi",
+    "category": "Despensa",
+    "image": "assets/products/178-fideos-rigatoni-400g-carozzi.jpg"
+  },
+  {
+    "id": 179,
+    "name": "Jurel Colorado",
+    "category": "Despensa",
+    "image": "assets/products/179-jurel-colorado.jpg"
+  },
+  {
+    "id": 180,
+    "name": "Jurel en agua San Marcos",
+    "category": "Despensa",
+    "image": "assets/products/180-jurel-en-agua-san-marcos.jpg"
+  },
+  {
+    "id": 181,
+    "name": "Ketchup Don Juan sobre 100g 18u",
+    "category": "Despensa",
+    "image": "assets/products/181-ketchup-don-juan-sobre-100g-18u.jpg"
+  },
+  {
+    "id": 182,
+    "name": "Levadura Collico seca en sobres 10g 10u",
+    "category": "Despensa",
+    "image": "assets/products/182-levadura-collico-seca-en-sobres-10g-10u.jpg"
+  },
+  {
+    "id": 183,
+    "name": "Levadura Lefersa seca en sobres 10g 10u",
+    "category": "Despensa",
+    "image": "assets/products/183-levadura-lefersa-seca-en-sobres-10g-10u.jpg"
+  },
+  {
+    "id": 184,
+    "name": "Levadura seca instantanea 500g",
+    "category": "Despensa",
+    "image": "assets/products/184-levadura-seca-instantanea-500g.jpg"
+  },
+  {
+    "id": 185,
+    "name": "Mani con pasas 180g",
+    "category": "Despensa",
+    "image": "assets/products/185-mani-con-pasas-180g.jpg"
+  },
+  {
+    "id": 186,
+    "name": "Manjar Calo 400g",
+    "category": "Despensa",
+    "image": "assets/products/186-manjar-calo-400g.jpg"
+  },
+  {
+    "id": 187,
+    "name": "Mayonesa Hellmann's 24u de 93g",
+    "category": "Despensa",
+    "image": "assets/products/187-mayonesa-hellmanns-24u-de-93g.jpg"
+  },
+  {
+    "id": 188,
+    "name": "Mostaza Don Juan sobre 100g 18u",
+    "category": "Despensa",
+    "image": "assets/products/188-mostaza-don-juan-sobre-100g-18u.jpg"
+  },
+  {
+    "id": 189,
+    "name": "Nescafe Tradicion 96u de 1,8g",
+    "category": "Despensa",
+    "image": "assets/products/189-nescafe-tradicion-96u-de-18g.jpg"
+  },
+  {
+    "id": 190,
+    "name": "Para Uno Caracoquesos",
+    "category": "Despensa",
+    "image": "assets/products/190-para-uno-caracoquesos.jpg"
+  },
+  {
+    "id": 191,
+    "name": "Para Uno Espirales Bolognesa",
+    "category": "Despensa",
+    "image": "assets/products/191-para-uno-espirales-bolognesa.jpg"
+  },
+  {
+    "id": 192,
+    "name": "Polvos de hornear Imperial 1x50",
+    "category": "Despensa",
+    "image": "assets/products/192-polvos-de-hornear-imperial-1x50.jpg"
+  },
+  {
+    "id": 193,
+    "name": "Salsa de tomate Italiana Aconcagua 200g",
+    "category": "Despensa",
+    "image": "assets/products/193-salsa-de-tomate-italiana-aconcagua-200g.jpg"
+  },
+  {
+    "id": 194,
+    "name": "Sucedaneo jugo de limon 500ml Don Juan x12u",
+    "category": "Despensa",
+    "image": "assets/products/194-sucedaneo-jugo-de-limon-500ml-don-juan-x12u.jpg"
+  },
+  {
+    "id": 195,
+    "name": "Vinagre Blanco Don Juan 250cc x15",
+    "category": "Despensa",
+    "image": "assets/products/195-vinagre-blanco-don-juan-250cc-x15.jpg"
+  },
+  {
+    "id": 196,
+    "name": "Durazno en cubitos Wasil 380gr",
+    "category": "Despensa",
+    "image": "assets/products/196-durazno-en-cubitos-wasil-380gr.jpg"
+  },
+  {
+    "id": 197,
+    "name": "Durazno en cubitos Regimel 380gr",
+    "category": "Despensa",
+    "image": "assets/products/197-durazno-en-cubitos-regimel-380gr.jpg"
+  },
+  {
+    "id": 198,
+    "name": "Yerba Mate con palo Caballo Blanco 5kg",
+    "category": "Despensa",
+    "image": "assets/products/198-yerba-mate-con-palo-caballo-blanco-5kg.jpg"
+  },
+  {
+    "id": 199,
+    "name": "Ampolleta HaloBright Classic 42W 10u",
+    "category": "Menaje",
+    "image": "assets/products/199-ampolleta-halobright-classic-42w-10u.jpg"
+  },
+  {
+    "id": 200,
+    "name": "Ampolleta HaloBright Classic 70W 10u",
+    "category": "Menaje",
+    "image": "assets/products/200-ampolleta-halobright-classic-70w-10u.jpg"
+  },
+  {
+    "id": 201,
+    "name": "Ampolleta RedPower 42W luz calida",
+    "category": "Menaje",
+    "image": "assets/products/201-ampolleta-redpower-42w-luz-calida.jpg"
+  },
+  {
+    "id": 202,
+    "name": "Ampolleta RedPower 70W luz calida",
+    "category": "Menaje",
+    "image": "assets/products/202-ampolleta-redpower-70w-luz-calida.jpg"
+  },
+  {
+    "id": 203,
+    "name": "Bombilla metalica 6 piezas",
+    "category": "Menaje",
+    "image": "assets/products/203-bombilla-metalica-6-piezas.jpg"
+  },
+  {
+    "id": 204,
+    "name": "Copa Versalles Vino Tinto 6x300cc",
+    "category": "Menaje",
+    "image": "assets/products/204-copa-versalles-vino-tinto-6x300cc.jpg"
+  },
+  {
+    "id": 205,
+    "name": "Cuchara de te 6 piezas",
+    "category": "Menaje",
+    "image": "assets/products/205-cuchara-de-te-6-piezas.jpg"
+  },
+  {
+    "id": 206,
+    "name": "Encendedores Ronson Clearlite x20",
+    "category": "Menaje",
+    "image": "assets/products/206-encendedores-ronson-clearlite-x20.jpg"
+  },
+  {
+    "id": 207,
+    "name": "Encendedores Ronson con disenos x20",
+    "category": "Menaje",
+    "image": "assets/products/207-encendedores-ronson-con-disenos-x20.jpg"
+  },
+  {
+    "id": 208,
+    "name": "Fosforo de seguridad Pavo Real 1x10",
+    "category": "Menaje",
+    "image": "assets/products/208-fosforo-de-seguridad-pavo-real-1x10.jpg"
+  },
+  {
+    "id": 209,
+    "name": "Fosforo de seguridad Talisman x10",
+    "category": "Menaje",
+    "image": "assets/products/209-fosforo-de-seguridad-talisman-x10.jpg"
+  },
+  {
+    "id": 210,
+    "name": "Juego de colador plastico 4 piezas",
+    "category": "Menaje",
+    "image": "assets/products/210-juego-de-colador-plastico-4-piezas.jpg"
+  },
+  {
+    "id": 211,
+    "name": "Pegamento Super Glue Chemmer 12u",
+    "category": "Menaje",
+    "image": "assets/products/211-pegamento-super-glue-chemmer-12u.jpg"
+  },
+  {
+    "id": 212,
+    "name": "Pila Duracell AA x12",
+    "category": "Menaje",
+    "image": "assets/products/212-pila-duracell-aa-x12.jpg"
+  },
+  {
+    "id": 213,
+    "name": "Pila Duracell AAA x6",
+    "category": "Menaje",
+    "image": "assets/products/213-pila-duracell-aaa-x6.jpg"
+  },
+  {
+    "id": 214,
+    "name": "Pila Duracell C2 x2",
+    "category": "Menaje",
+    "image": "assets/products/214-pila-duracell-c2-x2.jpg"
+  },
+  {
+    "id": 215,
+    "name": "Pila RayoVac AA 48u",
+    "category": "Menaje",
+    "image": "assets/products/215-pila-rayovac-aa-48u.jpg"
+  },
+  {
+    "id": 216,
+    "name": "Pila RayoVac AA 60u",
+    "category": "Menaje",
+    "image": null
+  },
+  {
+    "id": 217,
+    "name": "Pila RayoVac AAA 30u",
+    "category": "Menaje",
+    "image": "assets/products/217-pila-rayovac-aaa-30u.jpg"
+  },
+  {
+    "id": 218,
+    "name": "Pila RayoVac D 24u",
+    "category": "Menaje",
+    "image": "assets/products/218-pila-rayovac-d-24u.jpg"
+  },
+  {
+    "id": 219,
+    "name": "Vaso Monterrey Rocks 6x296cc",
+    "category": "Menaje",
+    "image": "assets/products/219-vaso-monterrey-rocks-6x296cc.jpg"
+  },
+  {
+    "id": 220,
+    "name": "Vasos altos Slice 6x470cc",
+    "category": "Menaje",
+    "image": "assets/products/220-vasos-altos-slice-6x470cc.jpg"
+  },
+  {
+    "id": 221,
+    "name": "Vela Antorcha 4u",
+    "category": "Menaje",
+    "image": "assets/products/221-vela-antorcha-4u.jpg"
+  },
+  {
+    "id": 222,
+    "name": "Venditas Standard CureBand x100",
+    "category": "Menaje",
+    "image": "assets/products/222-venditas-standard-cureband-x100.jpg"
+  },
+  {
+    "id": 223,
+    "name": "Lapiz BIC cristal Azul x50",
+    "category": "Libreria",
+    "image": "assets/products/223-lapiz-bic-cristal-azul-x50.jpg"
+  },
+  {
+    "id": 224,
+    "name": "Lapiz BIC cristal Negro x50",
+    "category": "Libreria",
+    "image": "assets/products/224-lapiz-bic-cristal-negro-x50.jpg"
+  },
+  {
+    "id": 225,
+    "name": "Rollo de papel 20cm",
+    "category": "Libreria",
+    "image": "assets/products/225-rollo-de-papel-20cm.jpg"
+  }
+]
