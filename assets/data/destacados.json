@@ -1,4 +1,21 @@
 {
-  "_comment": "IDs de los productos más vendidos (curado a mano). En la Fase 5 este archivo se actualizará automáticamente desde las ventas de Defontana.",
-  "ids": [102, 9, 11, 113, 19, 7, 5, 164, 169, 186, 187, 198]
+  "_comment": "Más vendidos REALES (orden por unidades vendidas), generado desde el Informe de Local x Artículo de Defontana con scripts/build_destacados.py. Solo IDs, sin cifras de venta.",
+  "ids": [
+    63,
+    160,
+    19,
+    36,
+    221,
+    90,
+    86,
+    11,
+    59,
+    206,
+    179,
+    161,
+    211,
+    89,
+    34,
+    169
+  ]
 }

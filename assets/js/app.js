@@ -29,6 +29,7 @@ const FEATURED_CAT = "__destacados__";
 // --- Estado -------------------------------------------------
 let PRODUCTS = [];
 let FEATURED = new Set();   // ids de los productos más vendidos
+let FEATURED_ORDER = [];    // mismos ids en orden de ventas (ranking real)
 let activeCategory = "Todos";
 let query = "";
 let order = loadOrder(); // { [id]: qty }
@@ -73,8 +74,9 @@ async function init() {
   try {
     const r = await fetch("assets/data/destacados.json");
     const d = await r.json();
-    FEATURED = new Set((d.ids || []).filter(id => PRODUCTS.some(p => p.id === id)));
-  } catch { FEATURED = new Set(); }
+    FEATURED_ORDER = (d.ids || []).filter(id => PRODUCTS.some(p => p.id === id));
+    FEATURED = new Set(FEATURED_ORDER);
+  } catch { FEATURED = new Set(); FEATURED_ORDER = []; }
 
   $("#stat-products").textContent = PRODUCTS.length;
   const cats = [...new Set(PRODUCTS.map(p => p.category))];
@@ -122,14 +124,17 @@ function buildFilters(cats) {
 // --- Render del grid ----------------------------------------
 function filtered() {
   const q = normalize(query);
+  const matchesQuery = p => !q || normalize(p.name).includes(q);
+
+  // "Más vendidos": en orden de ventas reales (no orden de catálogo)
+  if (activeCategory === FEATURED_CAT) {
+    const byId = new Map(PRODUCTS.map(p => [p.id, p]));
+    return FEATURED_ORDER.map(id => byId.get(id)).filter(p => p && matchesQuery(p));
+  }
+
   return PRODUCTS.filter(p => {
-    if (activeCategory === FEATURED_CAT) {
-      if (!FEATURED.has(p.id)) return false;
-    } else if (activeCategory !== "Todos" && p.category !== activeCategory) {
-      return false;
-    }
-    if (q && !normalize(p.name).includes(q)) return false;
-    return true;
+    if (activeCategory !== "Todos" && p.category !== activeCategory) return false;
+    return matchesQuery(p);
   });
 }
 
