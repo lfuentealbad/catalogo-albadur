@@ -1,0 +1,4 @@
+{
+  "_comment": "IDs de los productos más vendidos (curado a mano). En la Fase 5 este archivo se actualizará automáticamente desde las ventas de Defontana.",
+  "ids": [102, 9, 11, 113, 19, 7, 5, 164, 169, 186, 187, 198]
+}

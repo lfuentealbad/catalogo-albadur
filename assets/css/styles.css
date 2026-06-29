@@ -179,6 +179,11 @@ img { max-width: 100%; display: block; }
 .chip[aria-selected="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
 .chip[aria-selected="true"] .chip-count { background: rgba(255,255,255,.2); color: #fff; }
 
+.chip-featured { border-color: var(--orange); color: #9a5b00; background: #fff7ec; }
+.chip-featured:hover { border-color: var(--orange); color: #7a4700; }
+.chip-featured[aria-selected="true"] { background: var(--orange); border-color: var(--orange); color: #4a2c00; }
+.chip-featured[aria-selected="true"] .chip-count { background: rgba(0,0,0,.14); color: #4a2c00; }
+
 .grid {
   display: grid; gap: 18px;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -203,6 +208,12 @@ img { max-width: 100%; display: block; }
   position: absolute; top: 10px; left: 10px;
   font-size: .72rem; font-weight: 700; letter-spacing: .02em;
   color: #fff; padding: 3px 9px; border-radius: 999px; backdrop-filter: blur(2px);
+}
+.fav-badge {
+  position: absolute; top: 8px; right: 8px; z-index: 2;
+  width: 26px; height: 26px; border-radius: 50%;
+  display: grid; place-items: center; font-size: .9rem; line-height: 1;
+  background: var(--orange); color: #fff; box-shadow: var(--shadow-sm);
 }
 
 .card-body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 12px; flex: 1; }

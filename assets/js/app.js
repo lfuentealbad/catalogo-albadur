@@ -24,8 +24,11 @@ const CATEGORY_LABEL = { "Libreria": "Librería" }; // etiqueta con tilde
 
 const STORAGE_KEY = "albadur.order.v1";
 
+const FEATURED_CAT = "__destacados__";
+
 // --- Estado -------------------------------------------------
 let PRODUCTS = [];
+let FEATURED = new Set();   // ids de los productos más vendidos
 let activeCategory = "Todos";
 let query = "";
 let order = loadOrder(); // { [id]: qty }
@@ -66,6 +69,13 @@ async function init() {
     return;
   }
 
+  // Más vendidos (opcional: si falta el archivo, simplemente no se muestra)
+  try {
+    const r = await fetch("assets/data/destacados.json");
+    const d = await r.json();
+    FEATURED = new Set((d.ids || []).filter(id => PRODUCTS.some(p => p.id === id)));
+  } catch { FEATURED = new Set(); }
+
   $("#stat-products").textContent = PRODUCTS.length;
   const cats = [...new Set(PRODUCTS.map(p => p.category))];
   $("#stat-cats").textContent = cats.length;
@@ -83,11 +93,21 @@ function buildFilters(cats) {
   cats.forEach(c => counts[c] = PRODUCTS.filter(p => p.category === c).length);
 
   const all = ["Todos", ...cats];
-  filters.innerHTML = all.map(c => `
+  let html = all.map(c => `
     <button class="chip" role="tab" data-cat="${c}"
       aria-selected="${c === activeCategory}">
       ${catLabel(c)} <span class="chip-count">${counts[c]}</span>
     </button>`).join("");
+
+  // Chip destacado "★ Más vendidos" al inicio (solo si hay destacados)
+  if (FEATURED.size) {
+    html = `
+    <button class="chip chip-featured" role="tab" data-cat="${FEATURED_CAT}"
+      aria-selected="${activeCategory === FEATURED_CAT}">
+      ★ Más vendidos <span class="chip-count">${FEATURED.size}</span>
+    </button>` + html;
+  }
+  filters.innerHTML = html;
 
   filters.addEventListener("click", e => {
     const chip = e.target.closest(".chip");
@@ -103,7 +123,11 @@ function buildFilters(cats) {
 function filtered() {
   const q = normalize(query);
   return PRODUCTS.filter(p => {
-    if (activeCategory !== "Todos" && p.category !== activeCategory) return false;
+    if (activeCategory === FEATURED_CAT) {
+      if (!FEATURED.has(p.id)) return false;
+    } else if (activeCategory !== "Todos" && p.category !== activeCategory) {
+      return false;
+    }
     if (q && !normalize(p.name).includes(q)) return false;
     return true;
   });
@@ -133,10 +157,14 @@ function cardHTML(p) {
          <span>Foto no disponible</span>
        </div>`;
 
+  const star = FEATURED.has(p.id)
+    ? `<span class="fav-badge" title="Más vendido">★</span>` : "";
+
   return `
   <article class="card ${inOrder ? "in-order" : ""}" data-id="${p.id}">
     <div class="card-media">
       <span class="cat-tag" style="background:${color}">${catLabel(p.category)}</span>
+      ${star}
       ${media}
     </div>
     <div class="card-body">
