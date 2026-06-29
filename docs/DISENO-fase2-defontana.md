@@ -59,6 +59,27 @@ Navegador (catálogo)  ──►  Cloudflare Pages   (sitio estático: el catál
 Validar RUT, guardar contraseñas y llamar a Defontana **no se puede hacer desde
 el navegador** sin exponer credenciales. El Worker es esa capa segura.
 
+## 3.1 Endpoints de Defontana confirmados
+
+Verificados contra la especificación OpenAPI real de la cuenta
+(`docs/defontana-openapi.json`, "Main API v1", 240 endpoints). Base:
+`https://api.defontana.com` (pruebas: `https://replapi.defontana.com`).
+
+| Función | Endpoint | Notas |
+|---------|----------|-------|
+| Autenticación | `GET /api/Auth/EmailLogin?email&password` | Devuelve `access_token` (JWT Bearer) + `expires_in`. Alternativa: `GET /api/Auth?client&company&user&password`. |
+| Validar cliente por RUT | `GET /api/Sale/GetClients?legalCode=<RUT>&status=1&itemsPerPage&pageNumber` | Si el RUT existe → cliente real. `SearchClientByLegalCode` consulta el SII. |
+| Ventas por fecha (más vendidos + historial) | `GET /api/Sale/GetSalebyDate?initialDate&endingDate&itemsPerPage&pageNumber` | Paginado. Se agrega por producto para el ranking; filtrado por cliente para su historial. |
+| Productos | `GET /api/Sale/GetSimpleProducts` · `Getproducts` · `GetProductsByCategory` · `GetCategories` | Mapeo código ↔ nombre ↔ categoría. |
+| Stock | `GET /api/Sale/GetStorageStock?storageID` · `GET /api/Sale/GetStorages` | Stock por bodega. |
+| Detalle de un documento | `GET /api/Sale/GetSale` | Líneas de una venta puntual. |
+
+**Auth:** el token es un JWT tipo Bearer con expiración; se envía en el header
+`Authorization` de las demás llamadas. El Worker lo cachea hasta `expires_in` y
+lo renueva. Se recomienda crear un **usuario de API dedicado** en el ERP
+(Administración de usuarios) en vez de usar el login personal, para poder
+revocarlo sin afectar tu acceso.
+
 ## 4. Modelo de datos (D1)
 
 ```sql
@@ -115,10 +136,17 @@ rate-limiting en login; HTTPS (lo da Cloudflare).
 
 ## 8. Lo que se necesita del negocio
 
-1. **Defontana** — contactar a *Post-Venta* y solicitar:
-   - Activación del acceso **API REST**.
-   - Acceso a los módulos **Sale** (ventas y clientes) e **Inventory**.
-   - Credenciales de un **usuario de API**.
+> **Actualización (2026-06-28):** se confirmó que la cuenta de Albadur **ya tiene
+> la API disponible** (portal "Api de Integraciones" → documentación OpenAPI
+> descargada en `docs/defontana-openapi.json`). El acceso a la API ya no es un
+> bloqueador; lo que falta son las credenciales y el hosting.
+
+1. **Credenciales de Defontana** (una de las dos opciones):
+   - Crear un **usuario de API dedicado** en el ERP (Administración de usuarios) y
+     usar `GET /api/Auth` con `client` + `company` + `user` + contraseña, **o**
+   - usar `GET /api/Auth/EmailLogin` con un correo + contraseña de acceso al ERP.
+   - Confirmar el **código de cliente** y **código de empresa** (los asigna
+     Defontana; aparecen en el portal o se piden a Postventa).
 2. **Cloudflare** — crear una cuenta (gratuita) para Pages/Workers/D1.
 
 Las credenciales se entregan de forma segura (no en texto plano por chat) y se
