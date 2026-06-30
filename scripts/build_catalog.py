@@ -21,8 +21,8 @@ from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-PRODUCTS_DIR = os.path.join(ROOT, "assets", "products")
-DATA_DIR = os.path.join(ROOT, "assets", "data")
+PRODUCTS_DIR = os.path.join(ROOT, "public", "assets", "products")
+DATA_DIR = os.path.join(ROOT, "public", "assets", "data")
 
 BACKGROUND_SIZE = (1275, 1650)  # imagen de fondo de pagina (se ignora)
 CANVAS = 600

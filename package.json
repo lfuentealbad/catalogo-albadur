@@ -1,0 +1,27 @@
+{
+  "name": "albadur",
+  "version": "1.0.0",
+  "description": "Catálogo de productos en línea de **Sociedad Albadur** (distribuidora / venta al por mayor). Sitio web estático con búsqueda, filtros por categoría y armado de pedidos por WhatsApp o correo, más una versión en PDF imprimible.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfuentealbad/catalogo-albadur.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lfuentealbad/catalogo-albadur/issues"
+  },
+  "homepage": "https://github.com/lfuentealbad/catalogo-albadur#readme",
+  "devDependencies": {
+    "wrangler": "^4.105.0"
+  }
+}

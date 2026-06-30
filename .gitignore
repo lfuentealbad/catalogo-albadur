@@ -25,3 +25,10 @@ page-*.png
 !.dev.vars.example
 .env*
 !.env.example
+
+# dependencias
+node_modules/
+
+# DATOS PERSONALES DE CLIENTES — nunca subir al repo público
+*.local.sql
+/.data/

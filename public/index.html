@@ -36,6 +36,11 @@
         <input id="search" type="search" placeholder="Buscar producto…" autocomplete="off" aria-label="Buscar producto" />
       </div>
 
+      <button class="account-btn" id="account-btn" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 20a8 8 0 0 1 16 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span id="account-label">Ingresar</span>
+      </button>
+
       <button class="cart-toggle" id="cart-toggle" aria-haspopup="dialog" aria-controls="order-drawer">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h15l-1.5 9h-12L6 6zM6 6L5 3H2m4 18a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm11 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         <span>Mi pedido</span>
@@ -43,6 +48,39 @@
       </button>
     </div>
   </header>
+
+  <!-- Modal de cuenta / login -->
+  <div class="modal-backdrop" id="auth-backdrop" hidden></div>
+  <div class="auth-modal" id="auth-modal" role="dialog" aria-modal="true" aria-labelledby="auth-title" hidden>
+    <button class="auth-close" id="auth-close" aria-label="Cerrar">&times;</button>
+    <div class="auth-brand"><img src="assets/img/logo.svg" alt="Albadur" /></div>
+
+    <!-- Paso 1: RUT -->
+    <div class="auth-step" id="step-rut">
+      <h2 id="auth-title">Ingresa con tu RUT</h2>
+      <p class="auth-help">Para clientes de Albadur. Validamos tu RUT con nuestro registro.</p>
+      <label class="field"><span>RUT</span>
+        <input id="auth-rut" type="text" placeholder="12.345.678-9" autocomplete="username" />
+      </label>
+      <p class="auth-error" id="auth-error" hidden></p>
+      <button class="btn btn-primary auth-submit" id="rut-continue">Continuar</button>
+    </div>
+
+    <!-- Paso 2: contraseña (login o registro) -->
+    <div class="auth-step" id="step-pass" hidden>
+      <h2 id="pass-title">Tu contraseña</h2>
+      <p class="auth-help" id="pass-help"></p>
+      <label class="field"><span>Contraseña</span>
+        <input id="auth-pass" type="password" placeholder="••••••" autocomplete="current-password" />
+      </label>
+      <label class="field" id="email-field" hidden><span>Correo (opcional)</span>
+        <input id="auth-email" type="email" placeholder="tucorreo@ejemplo.cl" autocomplete="email" />
+      </label>
+      <p class="auth-error" id="pass-error" hidden></p>
+      <button class="btn btn-primary auth-submit" id="pass-submit">Entrar</button>
+      <button class="btn btn-text" id="pass-back">← Usar otro RUT</button>
+    </div>
+  </div>
 
   <main>
     <section class="hero">
@@ -144,6 +182,7 @@
     </div>
   </aside>
 
+  <script src="assets/js/auth.js" defer></script>
   <script src="assets/js/app.js" defer></script>
 </body>
 </html>

@@ -119,6 +119,38 @@ img { max-width: 100%; display: block; }
   display: inline-flex; align-items: center; justify-content: center;
 }
 
+/* ---------- Botón de cuenta ---------- */
+.account-btn {
+  flex: 0 0 auto; display: inline-flex; align-items: center; gap: 8px;
+  font: inherit; font-weight: 600; cursor: pointer;
+  background: transparent; color: var(--ink); border: 1.5px solid var(--line);
+  padding: 9px 15px; border-radius: 999px; transition: all .18s ease;
+}
+.account-btn svg { width: 19px; height: 19px; }
+.account-btn:hover { border-color: var(--blue); color: var(--blue-700); }
+.account-btn.logged { background: #eaf4fb; border-color: var(--blue); color: var(--blue-700); }
+
+/* ---------- Modal de login ---------- */
+.modal-backdrop { position: fixed; inset: 0; background: rgba(31,42,49,.5); z-index: 170; animation: fade .2s ease; }
+.auth-modal {
+  position: fixed; z-index: 180; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: min(420px, 92vw); background: var(--surface); border-radius: var(--radius);
+  box-shadow: var(--shadow-lg); padding: 28px 26px 26px; animation: pop .22s ease;
+}
+@keyframes pop { from { opacity: 0; transform: translate(-50%, -46%); } }
+.auth-close {
+  position: absolute; top: 10px; right: 14px; font-size: 1.8rem; line-height: 1;
+  background: none; border: none; cursor: pointer; color: var(--muted);
+}
+.auth-close:hover { color: var(--ink); }
+.auth-brand { text-align: center; margin-bottom: 14px; }
+.auth-brand img { height: 38px; display: inline-block; }
+.auth-modal h2 { font-size: 1.4rem; text-align: center; margin-bottom: 6px; }
+.auth-help { text-align: center; color: var(--muted); font-size: .92rem; margin: 0 0 18px; }
+.auth-submit { width: 100%; margin-top: 6px; }
+.auth-error { color: var(--red); font-size: .88rem; margin: 4px 0 8px; }
+#pass-back { width: 100%; margin-top: 4px; }
+
 /* ---------- Hero ---------- */
 .hero { background: linear-gradient(180deg, #fff 0%, var(--bg) 100%); overflow: hidden; }
 .hero-inner {

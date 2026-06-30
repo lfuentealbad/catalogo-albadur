@@ -20,8 +20,8 @@ from difflib import SequenceMatcher
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-CATALOG = os.path.join(ROOT, "assets", "data", "products.json")
-OUT = os.path.join(ROOT, "assets", "data", "destacados.json")
+CATALOG = os.path.join(ROOT, "public", "assets", "data", "products.json")
+OUT = os.path.join(ROOT, "public", "assets", "data", "destacados.json")
 
 TOP_DEFAULT = 16
 SCORE_MIN = 0.60
