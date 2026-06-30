@@ -1,15 +1,24 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "albadur",
+  "main": "src/index.js",
   "compatibility_date": "2026-06-29",
   "observability": {
     "enabled": true
   },
   "assets": {
-    "directory": ".",
+    "directory": "./public",
+    "binding": "ASSETS",
     "not_found_handling": "404-page"
   },
   "compatibility_flags": [
     "nodejs_compat"
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "albadur-clientes",
+      "database_id": "ecd633a8-a96a-44c2-8080-713ce425f29f"
+    }
   ]
 }
