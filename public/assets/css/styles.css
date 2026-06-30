@@ -222,15 +222,22 @@ img { max-width: 100%; display: block; }
 }
 
 .card {
-  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
   overflow: hidden; display: flex; flex-direction: column;
-  box-shadow: var(--shadow-sm); transition: transform .16s ease, box-shadow .2s ease, border-color .2s;
+  box-shadow: var(--shadow-sm); transition: transform .18s ease, box-shadow .22s ease, border-color .2s;
 }
-.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: #d8e0e6; }
+.card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: #d3dde4; }
 .card.in-order { border-color: var(--blue); box-shadow: 0 0 0 2px rgba(0,117,191,.18), var(--shadow-md); }
 
-.card-media { position: relative; aspect-ratio: 1 / 1; background: #fff; }
-.card-media img { width: 100%; height: 100%; object-fit: contain; padding: 6px; }
+.card-media {
+  position: relative; aspect-ratio: 1 / 1; overflow: hidden;
+  background: radial-gradient(120% 120% at 50% 18%, #ffffff 55%, #eef3f7 100%);
+}
+.card-media img {
+  width: 100%; height: 100%; object-fit: contain; padding: 14px;
+  transition: transform .35s cubic-bezier(.2,.8,.2,1);
+}
+.card:hover .card-media img { transform: scale(1.07); }
 .card-noimg {
   width: 100%; height: 100%; display: grid; place-items: center; gap: 6px;
   color: var(--muted); background: var(--surface-2); text-align: center; padding: 18px; font-size: .82rem;
@@ -248,16 +255,22 @@ img { max-width: 100%; display: block; }
   background: var(--orange); color: #fff; box-shadow: var(--shadow-sm);
 }
 
-.card-body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
-.card-name { font-size: .96rem; font-weight: 600; line-height: 1.3; margin: 0; }
+.card-body { padding: 13px 15px 15px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+.card-name {
+  font-size: .95rem; font-weight: 600; line-height: 1.32; margin: 0; color: var(--ink);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  min-height: 2.6em;
+}
 
 .card-actions { margin-top: auto; }
 .add-btn {
   width: 100%; font: inherit; font-weight: 600; cursor: pointer;
-  background: var(--surface-2); color: var(--blue-700); border: 1.5px solid transparent;
-  padding: 9px; border-radius: var(--radius-sm); transition: all .16s ease;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  background: #eef5fb; color: var(--blue-700); border: 1.5px solid #dbe9f4;
+  padding: 10px; border-radius: 11px; transition: all .16s ease;
 }
-.add-btn:hover { background: #e3edf4; }
+.add-btn::before { content: "+"; font-size: 1.15rem; line-height: 0; font-weight: 700; }
+.add-btn:hover { background: var(--blue); border-color: var(--blue); color: #fff; }
 
 .qty-control { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .qty-control .qty-btn {

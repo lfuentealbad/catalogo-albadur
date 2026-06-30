@@ -182,7 +182,7 @@ function cardHTML(p) {
 function actionsHTML(id) {
   const qty = order[id] || 0;
   if (qty <= 0) {
-    return `<button class="add-btn" data-act="add" data-id="${id}">+ Agregar al pedido</button>`;
+    return `<button class="add-btn" data-act="add" data-id="${id}">Agregar al pedido</button>`;
   }
   return `
     <div class="qty-control" role="group" aria-label="Cantidad">
