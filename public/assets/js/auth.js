@@ -3,6 +3,10 @@
    Conversa con /api/auth/* (Cloudflare Worker + D1).
    ============================================================ */
 (function () {
+  // El login de clientes está construido pero aún OCULTO (se activa cuando
+  // carguemos los clientes reales). Cambiar a true para mostrarlo.
+  const LOGIN_ENABLED = false;
+
   const $ = (s) => document.querySelector(s);
 
   // Estado del usuario, accesible para app.js (prellenar el pedido)
@@ -133,6 +137,7 @@
 
   /* ---------- Init ---------- */
   document.addEventListener("DOMContentLoaded", () => {
+    if (!LOGIN_ENABLED) { const b = $("#account-btn"); if (b) b.hidden = true; return; }
     $("#account-btn").addEventListener("click", onAccountClick);
     $("#auth-close").addEventListener("click", closeModal);
     $("#auth-backdrop").addEventListener("click", closeModal);
