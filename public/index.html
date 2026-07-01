@@ -84,115 +84,127 @@
 
   <main>
     <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-copy">
-          <p class="hero-eyebrow">Distribuidora · Ventas al por mayor</p>
-          <h1 class="hero-title">El catálogo completo de <span>Albadur</span></h1>
-          <p class="hero-lead">Confites, higiene personal, refrescos, despensa, menaje y librería. Explora el catálogo, arma tu pedido y envíanoslo en un par de clics.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#catalogo">Ver catálogo</a>
-            <a class="btn btn-ghost" href="#contacto">Cómo comprar</a>
-          </div>
-          <dl class="hero-stats">
-            <div><dt id="stat-products">—</dt><dd>productos</dd></div>
-            <div><dt id="stat-cats">6</dt><dd>categorías</dd></div>
-          </dl>
+      <div class="container hero-copy">
+        <p class="hero-eyebrow">Distribuidora · Ventas al por mayor</p>
+        <h1 class="hero-title">Abastecemos tu negocio en <span>La Araucanía</span></h1>
+        <p class="hero-lead">Confites, despensa, aseo, higiene, menaje y más. Explora el catálogo, arma tu pedido y envíanoslo en un par de clics.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#catalogo">Ver catálogo</a>
+          <a class="btn btn-ghost" href="#contacto">Cómo comprar</a>
         </div>
-        <div class="hero-art">
-          <span class="blob blob-1"></span>
-          <span class="blob blob-2"></span>
-          <span class="blob blob-3"></span>
-          <svg class="hero-illustration" viewBox="0 0 560 470" role="img"
-               aria-label="Camión de reparto de Albadur frente a la cordillera y araucarias de La Araucanía">
-            <defs>
-              <linearGradient id="cargo" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#0075bf"/>
-                <stop offset=".5" stop-color="#00a68f"/>
-                <stop offset="1" stop-color="#994c9c"/>
-              </linearGradient>
-              <linearGradient id="mtnFar" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0" stop-color="#a7a3d6"/><stop offset="1" stop-color="#c7c9ea"/>
-              </linearGradient>
-              <linearGradient id="mtnNear" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0" stop-color="#3f86bd"/><stop offset="1" stop-color="#6aa6cf"/>
-              </linearGradient>
-              <clipPath id="ground"><path d="M0 350 Q 280 326 560 350 L560 470 L0 470 Z"/></clipPath>
-            </defs>
+        <dl class="hero-stats">
+          <div><dt id="stat-products">—</dt><dd>productos</dd></div>
+          <div><dt id="stat-cats">8</dt><dd>categorías</dd></div>
+        </dl>
+      </div>
 
-            <!-- sol -->
-            <circle cx="430" cy="120" r="46" fill="#ffd9a3" opacity=".7"/>
+      <div class="hero-panorama">
+        <svg viewBox="0 0 1440 330" preserveAspectRatio="xMidYMax slice" role="img"
+             aria-label="Panorama de La Araucanía: cordillera nevada, araucarias y el camión de reparto de Albadur">
+          <defs>
+            <linearGradient id="cargo" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#0075bf"/>
+              <stop offset=".5" stop-color="#00a68f"/>
+              <stop offset="1" stop-color="#994c9c"/>
+            </linearGradient>
+            <linearGradient id="mtnFar" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#a7a3d6"/><stop offset="1" stop-color="#c7c9ea"/>
+            </linearGradient>
+            <linearGradient id="mtnNear" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#2e6ea3"/><stop offset="1" stop-color="#5a9ac6"/>
+            </linearGradient>
+          </defs>
 
-            <!-- cordillera lejana (con nieve) -->
-            <path d="M-10 250 L80 140 L150 215 L235 120 L320 215 L405 150 L480 220 L560 160 L560 360 L-10 360 Z" fill="url(#mtnFar)" opacity=".85"/>
-            <path d="M235 120 L213 145 L235 150 L257 140 Z" fill="#fff" opacity=".9"/>
-            <path d="M405 150 L388 170 L405 175 L424 165 Z" fill="#fff" opacity=".9"/>
+          <!-- sol -->
+          <circle cx="1150" cy="72" r="52" fill="#ffd9a3" opacity=".65"/>
 
-            <!-- cordillera cercana (con nieve) -->
-            <path d="M-10 300 L70 200 L140 262 L225 175 L300 262 L380 205 L470 270 L560 215 L560 360 L-10 360 Z" fill="url(#mtnNear)"/>
-            <path d="M225 175 L203 208 L226 214 L249 202 Z" fill="#fff"/>
-            <path d="M70 200 L52 228 L72 233 L90 222 Z" fill="#eef4fa"/>
-            <path d="M380 205 L364 230 L382 235 L399 224 Z" fill="#eef4fa"/>
+          <!-- cordillera lejana -->
+          <path d="M-20 235 L90 130 L190 205 L300 115 L400 205 L510 140 L620 215 L730 125 L840 210 L950 150 L1060 220 L1170 135 L1280 210 L1390 155 L1460 200 L1460 285 L-20 285 Z"
+                fill="url(#mtnFar)" opacity=".8"/>
+          <path d="M300 115 L280 140 L301 145 L322 133 Z" fill="#fff" opacity=".9"/>
+          <path d="M730 125 L712 148 L731 152 L750 141 Z" fill="#fff" opacity=".9"/>
+          <path d="M1170 135 L1153 157 L1171 161 L1189 151 Z" fill="#fff" opacity=".9"/>
 
-            <!-- suelo / pradera -->
-            <path d="M0 350 Q 280 326 560 350 L560 470 L0 470 Z" fill="#d4efe2"/>
-            <path d="M0 350 Q 280 326 560 350" fill="none" stroke="#bfe6d4" stroke-width="3"/>
+          <!-- cordillera cercana -->
+          <path d="M-20 285 L80 190 L170 250 L270 175 L360 250 L460 195 L560 258 L680 185 L790 252 L900 200 L1010 260 L1120 190 L1230 252 L1330 205 L1460 250 L1460 305 L-20 305 Z"
+                fill="url(#mtnNear)"/>
+          <path d="M270 175 L250 205 L271 211 L292 199 Z" fill="#fff"/>
+          <path d="M680 185 L662 212 L681 217 L700 206 Z" fill="#eef4fa"/>
+          <path d="M1120 190 L1103 216 L1121 221 L1139 210 Z" fill="#fff"/>
 
-            <!-- araucarias (árbol típico de La Araucanía) -->
-            <g transform="translate(64,352)">
-              <rect x="-8" y="-150" width="16" height="150" rx="4" fill="#7a5230"/>
-              <ellipse cx="-22" cy="-96" rx="22" ry="9" fill="#0c7a59"/>
-              <ellipse cx="24" cy="-104" rx="20" ry="8" fill="#0c7a59"/>
-              <ellipse cx="0" cy="-150" rx="56" ry="16" fill="#0c7a59"/>
-              <ellipse cx="0" cy="-172" rx="44" ry="14" fill="#14946d"/>
-              <ellipse cx="0" cy="-192" rx="30" ry="12" fill="#0c7a59"/>
-              <ellipse cx="0" cy="-208" rx="16" ry="10" fill="#14946d"/>
-              <path d="M0 -224 l9 16 -18 0 z" fill="#0c7a59"/>
-            </g>
-            <g transform="translate(516,354) scale(.78)">
-              <rect x="-8" y="-150" width="16" height="150" rx="4" fill="#6f4a2c"/>
-              <ellipse cx="-20" cy="-100" rx="20" ry="8" fill="#0b6e50"/>
-              <ellipse cx="22" cy="-108" rx="18" ry="7" fill="#0b6e50"/>
-              <ellipse cx="0" cy="-150" rx="54" ry="15" fill="#0b6e50"/>
-              <ellipse cx="0" cy="-172" rx="42" ry="13" fill="#0c7a59"/>
-              <ellipse cx="0" cy="-192" rx="28" ry="11" fill="#0b6e50"/>
-              <ellipse cx="0" cy="-208" rx="15" ry="9" fill="#0c7a59"/>
-              <path d="M0 -222 l8 15 -16 0 z" fill="#0b6e50"/>
-            </g>
+          <!-- pradera -->
+          <path d="M-20 274 Q 360 254 720 268 T 1460 262 L1460 330 L-20 330 Z" fill="#d4efe2"/>
+          <path d="M-20 274 Q 360 254 720 268 T 1460 262" fill="none" stroke="#bfe6d4" stroke-width="3"/>
 
-            <!-- pin de destino -->
-            <path d="M126 44c0 28-22 40-22 40s-22-12-22-40a22 22 0 1 1 44 0z" fill="#e31921"/>
-            <circle cx="104" cy="44" r="8" fill="#fff"/>
+          <!-- ruta -->
+          <path d="M60 310 Q 400 292 760 306 T 1400 300" fill="none"
+                stroke="#aeddc8" stroke-width="6" stroke-linecap="round" stroke-dasharray="1 18"/>
 
-            <!-- camino + camión (primer plano) -->
-            <g>
-              <!-- camino -->
-              <path d="M40 446 Q 220 414 340 442 T 552 430" fill="none" clip-path="url(#ground)"
-                    stroke="#aeddc8" stroke-width="6" stroke-linecap="round" stroke-dasharray="1 18"/>
-              <!-- líneas de movimiento -->
-              <g stroke="#00a68f" stroke-width="7" stroke-linecap="round" opacity=".5">
-                <line x1="120" y1="300" x2="170" y2="300"/>
-                <line x1="106" y1="332" x2="156" y2="332"/>
-              </g>
-              <!-- caja de carga -->
-              <rect x="196" y="206" width="214" height="166" rx="14" fill="#fff" stroke="#e2e8ee" stroke-width="3"/>
-              <rect x="196" y="206" width="40" height="166" rx="14" fill="url(#cargo)"/>
-              <line x1="304" y1="216" x2="304" y2="362" stroke="#eef2f5" stroke-width="3"/>
-              <line x1="358" y1="216" x2="358" y2="362" stroke="#eef2f5" stroke-width="3"/>
-              <!-- cabina -->
-              <path d="M410 252h60l38 52v68h-98z" fill="#0075bf"/>
-              <path d="M470 264h30l26 40h-56z" fill="#bfe0f5"/>
-              <rect x="500" y="348" width="16" height="24" rx="4" fill="#005a93"/>
-              <!-- parachoques -->
-              <rect x="410" y="368" width="106" height="14" rx="6" fill="#455560"/>
-              <!-- ruedas -->
-              <g>
-                <circle cx="266" cy="382" r="33" fill="#455560"/><circle cx="266" cy="382" r="13" fill="#fff"/>
-                <circle cx="356" cy="382" r="33" fill="#455560"/><circle cx="356" cy="382" r="13" fill="#fff"/>
-                <circle cx="466" cy="382" r="33" fill="#455560"/><circle cx="466" cy="382" r="13" fill="#fff"/>
-              </g>
-            </g>
-          </svg>
-        </div>
+          <!-- pin de destino -->
+          <path d="M1262 48c0 28-22 40-22 40s-22-12-22-40a22 22 0 1 1 44 0z" fill="#e31921"/>
+          <circle cx="1240" cy="48" r="8" fill="#fff"/>
+
+          <!-- araucarias -->
+          <g transform="translate(110,300) scale(.95)">
+            <rect x="-8" y="-150" width="16" height="150" rx="4" fill="#7a5230"/>
+            <ellipse cx="-22" cy="-96" rx="22" ry="9" fill="#0c7a59"/>
+            <ellipse cx="24" cy="-104" rx="20" ry="8" fill="#0c7a59"/>
+            <ellipse cx="0" cy="-150" rx="56" ry="16" fill="#0c7a59"/>
+            <ellipse cx="0" cy="-172" rx="44" ry="14" fill="#14946d"/>
+            <ellipse cx="0" cy="-192" rx="30" ry="12" fill="#0c7a59"/>
+            <ellipse cx="0" cy="-208" rx="16" ry="10" fill="#14946d"/>
+            <path d="M0 -224 l9 16 -18 0 z" fill="#0c7a59"/>
+          </g>
+          <g transform="translate(255,296) scale(.62)">
+            <rect x="-8" y="-150" width="16" height="150" rx="4" fill="#6f4a2c"/>
+            <ellipse cx="-20" cy="-100" rx="20" ry="8" fill="#0b6e50"/>
+            <ellipse cx="22" cy="-108" rx="18" ry="7" fill="#0b6e50"/>
+            <ellipse cx="0" cy="-150" rx="54" ry="15" fill="#0b6e50"/>
+            <ellipse cx="0" cy="-172" rx="42" ry="13" fill="#0c7a59"/>
+            <ellipse cx="0" cy="-192" rx="28" ry="11" fill="#0b6e50"/>
+            <ellipse cx="0" cy="-208" rx="15" ry="9" fill="#0c7a59"/>
+            <path d="M0 -222 l8 15 -16 0 z" fill="#0b6e50"/>
+          </g>
+          <g transform="translate(1035,298) scale(.55)">
+            <rect x="-8" y="-150" width="16" height="150" rx="4" fill="#6f4a2c"/>
+            <ellipse cx="-20" cy="-100" rx="20" ry="8" fill="#0b6e50"/>
+            <ellipse cx="22" cy="-108" rx="18" ry="7" fill="#0b6e50"/>
+            <ellipse cx="0" cy="-150" rx="54" ry="15" fill="#0b6e50"/>
+            <ellipse cx="0" cy="-172" rx="42" ry="13" fill="#0c7a59"/>
+            <ellipse cx="0" cy="-192" rx="28" ry="11" fill="#0b6e50"/>
+            <ellipse cx="0" cy="-208" rx="15" ry="9" fill="#0c7a59"/>
+            <path d="M0 -222 l8 15 -16 0 z" fill="#0b6e50"/>
+          </g>
+          <g transform="translate(1330,302) scale(.9)">
+            <rect x="-8" y="-150" width="16" height="150" rx="4" fill="#7a5230"/>
+            <ellipse cx="-22" cy="-96" rx="22" ry="9" fill="#0c7a59"/>
+            <ellipse cx="24" cy="-104" rx="20" ry="8" fill="#0c7a59"/>
+            <ellipse cx="0" cy="-150" rx="56" ry="16" fill="#0c7a59"/>
+            <ellipse cx="0" cy="-172" rx="44" ry="14" fill="#14946d"/>
+            <ellipse cx="0" cy="-192" rx="30" ry="12" fill="#0c7a59"/>
+            <ellipse cx="0" cy="-208" rx="16" ry="10" fill="#14946d"/>
+            <path d="M0 -224 l9 16 -18 0 z" fill="#0c7a59"/>
+          </g>
+
+          <!-- camión (líneas de movimiento + grupo escalado) -->
+          <g stroke="#00a68f" stroke-width="6" stroke-linecap="round" opacity=".5">
+            <line x1="500" y1="250" x2="560" y2="250"/>
+            <line x1="486" y1="278" x2="546" y2="278"/>
+          </g>
+          <g transform="translate(469,71) scale(.62)">
+            <rect x="196" y="206" width="214" height="166" rx="14" fill="#fff" stroke="#e2e8ee" stroke-width="3"/>
+            <rect x="196" y="206" width="40" height="166" rx="14" fill="url(#cargo)"/>
+            <line x1="304" y1="216" x2="304" y2="362" stroke="#eef2f5" stroke-width="3"/>
+            <line x1="358" y1="216" x2="358" y2="362" stroke="#eef2f5" stroke-width="3"/>
+            <path d="M410 252h60l38 52v68h-98z" fill="#0075bf"/>
+            <path d="M470 264h30l26 40h-56z" fill="#bfe0f5"/>
+            <rect x="500" y="348" width="16" height="24" rx="4" fill="#005a93"/>
+            <rect x="410" y="368" width="106" height="14" rx="6" fill="#455560"/>
+            <circle cx="266" cy="382" r="33" fill="#455560"/><circle cx="266" cy="382" r="13" fill="#fff"/>
+            <circle cx="356" cy="382" r="33" fill="#455560"/><circle cx="356" cy="382" r="13" fill="#fff"/>
+            <circle cx="466" cy="382" r="33" fill="#455560"/><circle cx="466" cy="382" r="13" fill="#fff"/>
+          </g>
+        </svg>
       </div>
     </section>
 
