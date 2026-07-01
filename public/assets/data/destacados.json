@@ -1,21 +1,21 @@
 {
-  "_comment": "Más vendidos REALES (orden por unidades vendidas), generado desde el Informe de Local x Artículo de Defontana con scripts/build_destacados.py. Solo IDs, sin cifras de venta.",
+  "_comment": "Más vendidos reales (ventas 90 días). Solo IDs.",
   "ids": [
-    63,
-    160,
-    19,
-    36,
-    221,
-    90,
-    86,
-    11,
-    59,
-    206,
-    179,
-    161,
-    211,
-    89,
-    34,
-    169
+    242,
+    243,
+    365,
+    55,
+    253,
+    256,
+    258,
+    199,
+    263,
+    95,
+    200,
+    100,
+    267,
+    101,
+    22,
+    112
   ]
 }

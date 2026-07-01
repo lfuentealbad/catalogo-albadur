@@ -14,13 +14,16 @@ const CONFIG = {
 
 const CATEGORY_COLORS = {
   "Confites":         "#994c9c",
-  "Higiene Personal": "#0075bf",
-  "Refrescos":        "#00a68f",
   "Despensa":         "#faa633",
+  "Higiene Personal": "#0075bf",
   "Menaje":           "#455560",
-  "Libreria":         "#e31921",
+  "Refrescos":        "#00a68f",
+  "Librería":         "#e31921",
+  "Aseo y Hogar":     "#12a4c0",
+  "Bolsas":           "#c9772f",
+  "Otros":            "#6b7a85",
 };
-const CATEGORY_LABEL = { "Libreria": "Librería" }; // etiqueta con tilde
+const CATEGORY_LABEL = {}; // las categorías ya vienen con su etiqueta correcta
 
 const STORAGE_KEY = "albadur.order.v1";
 
