@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Toalla Nova 70 Mts.",
     "category": "Aseo y Hogar",
-    "image": null
+    "image": "assets/products/001-toalla-nova-70-mts.jpg"
   },
   {
     "id": 2,
@@ -15,25 +15,25 @@
     "id": 3,
     "name": "Toalla de Mano 45 X80cm",
     "category": "Aseo y Hogar",
-    "image": null
+    "image": "assets/products/003-toalla-de-mano-45-x80cm.jpg"
   },
   {
     "id": 4,
     "name": "Lavaloza Quix 500ml",
     "category": "Aseo y Hogar",
-    "image": null
+    "image": "assets/products/004-lavaloza-quix-500ml.jpg"
   },
   {
     "id": 5,
     "name": "Omo Power Doy Pack 400ML",
     "category": "Aseo y Hogar",
-    "image": null
+    "image": "assets/products/005-omo-power-doy-pack-400ml.jpg"
   },
   {
     "id": 6,
     "name": "Cloro Gel Impeke 900ML",
     "category": "Aseo y Hogar",
-    "image": null
+    "image": "assets/products/006-cloro-gel-impeke-900ml.jpg"
   },
   {
     "id": 7,
@@ -45,31 +45,31 @@
     "id": 8,
     "name": "Cloro Gel Impeke",
     "category": "Aseo y Hogar",
-    "image": null
+    "image": "assets/products/008-cloro-gel-impeke.jpg"
   },
   {
     "id": 9,
     "name": "Esponja de Acero 1X6",
     "category": "Aseo y Hogar",
-    "image": null
+    "image": "assets/products/009-esponja-de-acero-1x6.jpg"
   },
   {
     "id": 10,
     "name": "Toalla nova",
     "category": "Aseo y Hogar",
-    "image": null
+    "image": "assets/products/010-toalla-nova.jpg"
   },
   {
     "id": 11,
     "name": "Papel higienico 30mts x4",
     "category": "Aseo y Hogar",
-    "image": null
+    "image": "assets/products/011-papel-higienico-30mts-x4.jpg"
   },
   {
     "id": 12,
     "name": "L Avalozas Magistral 215 Ml.",
     "category": "Aseo y Hogar",
-    "image": null
+    "image": "assets/products/012-l-avalozas-magistral-215-ml.jpg"
   },
   {
     "id": 13,
@@ -81,7 +81,7 @@
     "id": 14,
     "name": "Agua Oxigenada 10 G.-500ml",
     "category": "Aseo y Hogar",
-    "image": null
+    "image": "assets/products/014-agua-oxigenada-10-g-500ml.jpg"
   },
   {
     "id": 15,
@@ -93,37 +93,37 @@
     "id": 16,
     "name": "Shampoo - Balsamo Familand 750ml",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/016-shampoo-balsamo-familand-750ml.jpg"
   },
   {
     "id": 17,
     "name": "Toalla Higenicas Nosotras",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/017-toalla-higenicas-nosotras.jpg"
   },
   {
     "id": 18,
     "name": "Shampoo Babyland 270ml",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/018-shampoo-babyland-270ml.jpg"
   },
   {
     "id": 19,
     "name": "Toalla Hig. Nocturna Nosotras",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/019-toalla-hig-nocturna-nosotras.jpg"
   },
   {
     "id": 20,
     "name": "Protector Lady Sof Chico",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/020-protector-lady-sof-chico.jpg"
   },
   {
     "id": 21,
     "name": "Máquina Para Afeitar Quattro Titanium x10",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/021-maquina-para-afeitar-quattro-titanium-x10.jpg"
   },
   {
     "id": 22,
@@ -135,13 +135,13 @@
     "id": 23,
     "name": "Panty Cafarena",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/023-panty-cafarena.jpg"
   },
   {
     "id": 24,
     "name": "Desodorante Axe spray 150 ml",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/024-desodorante-axe-spray-150-ml.jpg"
   },
   {
     "id": 25,
@@ -153,7 +153,7 @@
     "id": 26,
     "name": "Balsamo Shampoo Jabon Ballerina Doypack",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/026-balsamo-shampoo-jabon-ballerina-doypack.jpg"
   },
   {
     "id": 27,
@@ -189,31 +189,31 @@
     "id": 32,
     "name": "Desodorante Rexona hombre",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/032-desodorante-rexona-hombre.jpg"
   },
   {
     "id": 33,
     "name": "Shampoo - jabón ballerina doypack",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/033-shampoo-jabon-ballerina-doypack.jpg"
   },
   {
     "id": 34,
     "name": "Máquina de Afeitar Venus-dama",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/034-maquina-de-afeitar-venus-dama.jpg"
   },
   {
     "id": 35,
     "name": "Balsamo Ballerina x50",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/035-balsamo-ballerina-x50.jpg"
   },
   {
     "id": 36,
     "name": "Pasta de diente colgate 75gr x12",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/036-pasta-de-diente-colgate-75gr-x12.jpg"
   },
   {
     "id": 37,
@@ -231,13 +231,13 @@
     "id": 39,
     "name": "Toalla Higénca Kotex Extra Protección",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/039-toalla-higenca-kotex-extra-proteccion.jpg"
   },
   {
     "id": 40,
     "name": "Colonias Infantiles Baby Land Surt.",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/040-colonias-infantiles-baby-land-surt.jpg"
   },
   {
     "id": 41,
@@ -249,7 +249,7 @@
     "id": 42,
     "name": "Algodon",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/042-algodon.jpg"
   },
   {
     "id": 43,
@@ -261,25 +261,25 @@
     "id": 44,
     "name": "Nivea Creme 150ML",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/044-nivea-creme-150ml.jpg"
   },
   {
     "id": 45,
     "name": "Shampoo Head Shourldes 375 ml Frasco",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/045-shampoo-head-shourldes-375-ml-frasco.jpg"
   },
   {
     "id": 46,
     "name": "Always 1x8",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/046-always-1x8.jpg"
   },
   {
     "id": 47,
     "name": "Lady Speed Stick",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/047-lady-speed-stick.jpg"
   },
   {
     "id": 48,
@@ -291,19 +291,19 @@
     "id": 49,
     "name": "Maquina Wilkinson x12",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/049-maquina-wilkinson-x12.jpg"
   },
   {
     "id": 50,
     "name": "Cotonitos",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/050-cotonitos.jpg"
   },
   {
     "id": 51,
     "name": "Maquina de Afeitar Dama Venus",
     "category": "Higiene Personal",
-    "image": null
+    "image": "assets/products/051-maquina-de-afeitar-dama-venus.jpg"
   },
   {
     "id": 52,
@@ -321,7 +321,7 @@
     "id": 54,
     "name": "Bebida Serrana 2L x6",
     "category": "Refrescos",
-    "image": null
+    "image": "assets/products/054-bebida-serrana-2l-x6.jpg"
   },
   {
     "id": 55,
@@ -333,25 +333,25 @@
     "id": 56,
     "name": "Jugo de limon 250cc Don Juan",
     "category": "Refrescos",
-    "image": null
+    "image": "assets/products/056-jugo-de-limon-250cc-don-juan.jpg"
   },
   {
     "id": 57,
     "name": "Coca Cola lata 1x6",
     "category": "Refrescos",
-    "image": null
+    "image": "assets/products/057-coca-cola-lata-1x6.jpg"
   },
   {
     "id": 58,
     "name": "Gatorade 1000 cc",
     "category": "Refrescos",
-    "image": null
+    "image": "assets/products/058-gatorade-1000-cc.jpg"
   },
   {
     "id": 59,
     "name": "Cachantun display 12x500 cc",
     "category": "Refrescos",
-    "image": null
+    "image": "assets/products/059-cachantun-display-12x500-cc.jpg"
   },
   {
     "id": 60,
